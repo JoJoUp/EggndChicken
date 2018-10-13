@@ -17,7 +17,7 @@ public class Animal extends Thread {
         }
 
         if(!other.isAlive()) {
-            System.out.printf("Побеждает %s", nameOfThread);
+            System.out.printf("Побеждает %s ", nameOfThread);
         }
     }
 }

@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
     Animal chicken = new Animal("Хурица");
-    Animal egg = new Animal("Яички");
+    Animal egg = new Animal("Яичко");
 
 		chicken.setOpponent(egg);
 		egg.setOpponent(chicken);
